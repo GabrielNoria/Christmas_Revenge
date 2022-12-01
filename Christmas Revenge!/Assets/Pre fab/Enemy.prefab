@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7352174119318533107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7352174119318533106}
+  - component: {fileID: 7352174119318533104}
+  - component: {fileID: 7352174119318533105}
+  m_Layer: 0
+  m_Name: Enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7352174119318533106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352174119318533107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.12818, y: 0.84779, z: -0.51394}
+  m_LocalScale: {x: 0.55806, y: 0.55806, z: 0.55806}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7026338988528779460}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7352174119318533104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352174119318533107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4d6305d8daf94947a111a3038cfafc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rutina: 0
+  cronometro: 0
+  ani: {fileID: 0}
+  angulo: {x: 0, y: 0, z: 0, w: 0}
+  grado: 0
+  target: {fileID: 0}
+  atacando: 0
+--- !u!95 &7352174119318533105
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7352174119318533107}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+  m_Controller: {fileID: 9100000, guid: 609c0ead605a18b4bb9aaa5bc6dc1df1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &7352174118499854127
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7352174119318533106}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.1206172
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.1206172
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.1206172
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.28997
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0083
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_Name
+      value: Yaku J Ignite
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_Avatar
+      value: 
+      objectReference: {fileID: 9000000, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+    - target: {fileID: 5866666021909216657, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 609c0ead605a18b4bb9aaa5bc6dc1df1, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+--- !u!4 &7026338988528779460 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 94b17f4ca67a94946b48077080edd26a, type: 3}
+  m_PrefabInstance: {fileID: 7352174118499854127}
+  m_PrefabAsset: {fileID: 0}
